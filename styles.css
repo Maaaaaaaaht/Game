@@ -1,0 +1,106 @@
+body {
+background-color: #5E92C2;    text-align: center;
+ 
+}
+
+h1 {
+color: #F9F871; 
+font-size: 80px;
+}
+
+.instruction{
+
+    color: #47E0B3;
+    font-size: 30px;
+}
+button {
+    color: #A1F18D;
+    background-color:#00CACF;
+    padding: 25px 45px;
+    font-size: 30px; 
+    border-radius: 20px 20px;
+
+}
+#luckyNumber {
+    color:orange ;
+    font-size: 50px;
+
+}
+#randomNumber {
+
+    color: #E29E21;
+    font-size: 50px;
+    border-style:outset;
+    border-radius: 20px 20px;
+    border-color:blue;
+    width:60px; 
+    margin: 50px 550px;
+
+}
+
+ #ball1 { 
+
+    color:blue; 
+    font-size: 30px; 
+    border-style: outset;
+    border-radius:10px 10px ; 
+    border-color: yellow; 
+  
+
+}
+#ball2 {
+
+    color:blue; 
+    font-size: 30px; 
+    border-style: outset;
+    border-radius:10px 10px; 
+    border-color: yellow; 
+
+
+
+}
+#ball3 {
+  
+    color:blue; 
+    font-size: 30px; 
+    border-style: outset;
+    border-radius:10px 10px ; 
+    border-color: yellow; 
+
+
+}
+#ball4 {
+
+    color:blue; 
+    font-size: 30px; 
+    border-style: outset;
+    border-radius:10px 10px ; 
+    border-color: yellow; 
+ 
+
+
+}
+#ball5 { 
+    
+    color:blue; 
+    font-size: 30px; 
+    border-style: outset;
+    border-radius:10px 10px ; 
+    border-color: yellow; 
+  
+
+
+} 
+
+#ball-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction: row;
+    
+    
+
+
+}
+

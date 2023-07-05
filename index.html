@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   <body>
     <h1>Scratch Game</h1>
 
-    <p>Here's your lucky number</p>
-    <p>How to play</p>
+    
+    <div class="instruction">
+        <p>How to play</p>
     <p>1. Scratch the card to obtain your number</p>
     <p>2. Click/Scratch each ball to reveal the numbers</p>
     <p>3. If your number match one of them, you win !!!</p>
     <p>If not you get to play a second game</p>
+    </div>
+    <div id="luckyNumber">Here's your lucky number</div>
 
-    <p id="randomNumber">?</p>
-    <button onclick="getNumber()">get your lucky number</button>
+ 
+    <div id="randomNumber">?</div>
+    
+<button onclick="getNumber()">get your lucky number</button>
+<div id="ball-list">
+    <ol id="ball1"></ol>
+    <ol id="ball2"></ol>
+    <ol id="ball3"></ol>
+    <ol id="ball4"></ol>
+    <ol id="ball5"></ol>
 
-    <p id="ball1"></p>
-    <p id="ball2"></p>
-    <p id="ball3"></p>
-    <p id="ball4"></p>
-    <p id="ball5"></p>
+</div>
 
    
     <script src="index.js"></script>
